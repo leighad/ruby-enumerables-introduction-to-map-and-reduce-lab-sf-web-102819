@@ -63,7 +63,7 @@ def reduce_to_all_true(array)
     end
   i += 1 
   end
-    if new_array.length === array.length
+    if array.length === new_array.length
     true
   else
     false
