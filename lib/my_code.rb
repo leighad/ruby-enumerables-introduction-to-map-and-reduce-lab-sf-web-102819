@@ -63,10 +63,10 @@ def reduce_to_all_true(array)
     end
   i += 1 
   end
-    if array === new_array
-    return true
+    if new_array === array
+    true
   else
-    return false
+    false
   end
 end
 
