@@ -60,13 +60,13 @@ def reduce_to_all_true(array)
   while i < array.length do
     if array[i] === true
       new_array << array[i]
+    else
+      false
     end
   i += 1 
   end
-    if new_array === array
-    true
-  else
-    false
+    if new_array.length > 0 
+      true
   end
 end
 
