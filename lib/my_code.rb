@@ -69,6 +69,17 @@ end
 
 def reduce_to_any_true(array)
   # array.reduce { |el| el === true}
+  i = 0 
+  new_array = []
+  while i < array.length do
+    if array[i] === true
+      new_array << array[i]
+    end
+    i += 1
+  end
+  if new_array.length > 0 
+    true
+  end
 end
 
 
