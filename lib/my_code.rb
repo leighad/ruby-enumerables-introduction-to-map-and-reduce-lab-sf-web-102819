@@ -64,9 +64,9 @@ def reduce_to_all_true(array)
   i += 1 
   end
     if array === new_array
-    true
+    return true
   else
-    false
+    return false
   end
 end
 
