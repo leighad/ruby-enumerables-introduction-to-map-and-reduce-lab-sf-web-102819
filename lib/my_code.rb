@@ -56,11 +56,17 @@ end
 def reduce_to_all_true(array)
   # array.reduce { |el| el == true}
   i = 0 
+  new_array = []
   while i < array.length do
     if array[i] === true
-      true
+      new_array << array[i]
     end
   i += 1 
+  end
+  if new_array.length === array.length
+    true
+  else
+    false
   end
 end
 
