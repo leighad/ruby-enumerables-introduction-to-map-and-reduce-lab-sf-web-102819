@@ -79,6 +79,8 @@ def reduce_to_any_true(array)
   end
   if new_array.length > 0 
     true
+  else
+    false
   end
 end
 
