@@ -61,7 +61,7 @@ def reduce_to_all_true(array)
     if array[i] === true
       new_array << array[i]
     else
-      false
+      return false
     end
   i += 1 
   end
